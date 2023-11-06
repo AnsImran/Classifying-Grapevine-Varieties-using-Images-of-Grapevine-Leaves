@@ -1,8 +1,8 @@
 # Classifying-Grapevine-Varieties-Using-images-of-Grapevine-Leaves 
-_Note: There are 2 notebooks [photometry.ipynb](photometry.ipynb) (models were initially created and ensembled here) and [production.ipynb](production/production.ipynb) (already saved models were loaded and used in production)_
+_Note: There are 2 notebooks [grapevine_leaves_classification.ipynb](grapevine_leaves_classification.ipynb) (models were initially created and ensembled here) and [production.ipynb](production.ipynb) (already saved models were loaded and used in production)_
 
 
-### I have tried to classify Quasars, Galaxies and Stars using photometric data.
+### I have tried to classify Grapevine varieties using images of leaves of different varieties of Grapevine
 ### Motivations:
 Large catalogs of unlabelled stellar objects are available. Labelling these stellar objects is important for a number of reasons. E.g: for statistical poulation analyses and for [testing cosmological models](https://academic.oup.com/mnras/article/444/1/2/1016765) to name a few. Although these stellar objects can be classified by analyzing their optical spectrums but that process is time consuming. [Next generation of telescopes](https://ui.adsabs.harvard.edu/abs/2019ApJ...873..111I/abstract) will increase the quantity of available unlabelled data even more! That's why we have tried to use the photometric data and a combination of machine learning approaches to label the stellar objects.
 
@@ -37,20 +37,26 @@ The results were:
 
 # Table of Contents (photometry.ipynb)
 
-## 1. Data Cleaning & Data Preparation
-   - ##### Loading data as a Pandas Data Frame
-   - ##### Selecting relevant columns/features
-   - ##### Removing unphysical records/rows
-   - ##### Undersampling
-   - ##### Creating training, validation and test splits
-   - ##### Converting data into numpy arrays
-   - ##### Normalizing The Data
+## 1. Importing data
+   - ##### Importing data from kaggle
+   - ##### Unzipping the data
 
-## 2. Data Visualisation
- - #### Principal Component Analysis
-   - ##### Intercative 3d scatter plot
+## 2. Data Cleaning
+   - ##### Addressing Class Imbalance
 
-## 3. Data Classification
+## 3. Data Transfer
+   - ##### Creating relevant directories & transferring the data (train, test and validation splits)
+
+## 4. Data Augmentation & Processing
+   - ##### Setting up generators to Augment & Process the data
+
+## 5. Data Visualisation
+   - ##### Visualizing typical images in the data before & after Augmentation
+
+## 6. Setting up a baseline performance
+   - #####  Using a small convnet, setting up a baseline performance
+
+## 5. Data Classification
  - ### Unsupervised Learning
    - ##### Gaussian Mixture Model - Clustering
 
