@@ -1,4 +1,4 @@
-# Classifying-Quasars-Galaxies-Stars-using-Photometry
+# Classifying-Grapevine-Varieties-Using-images-of-Grapevine-Leaves 
 _Note: There are 2 notebooks [photometry.ipynb](photometry.ipynb) (models were initially created and ensembled here) and [production.ipynb](production/production.ipynb) (already saved models were loaded and used in production)_
 
 
