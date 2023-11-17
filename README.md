@@ -3,8 +3,12 @@ _Note: There are 2 notebooks [grapevine_leaves_classification.ipynb](grapevine_l
 
 
 ### I have tried to classify Grapevine varieties using images of leaves of different varieties of Grapevine
-### Motivations:
-Large catalogs of unlabelled stellar objects are available. Labelling these stellar objects is important for a number of reasons. E.g: for statistical poulation analyses and for [testing cosmological models](https://academic.oup.com/mnras/article/444/1/2/1016765) to name a few. Although these stellar objects can be classified by analyzing their optical spectrums but that process is time consuming. [Next generation of telescopes](https://ui.adsabs.harvard.edu/abs/2019ApJ...873..111I/abstract) will increase the quantity of available unlabelled data even more! That's why we have tried to use the photometric data and a combination of machine learning approaches to label the stellar objects.
+
+## [Based on Kaggle Dataset](https://www.kaggle.com/datasets/muratkokludataset/grapevine-leaves-image-dataset/data)
+
+### Motivation:
+Grapevines produce grapes, which are enjoyed fresh or used in various processed products. Additionally, grapevine leaves are harvested annually as a by-product. The specific species of grapevine leaves play a crucial role in determining both their price and taste.
+Deep learning-based classification to analyze images of grapevine leaves. We focused on 500 vine leaves from 5 different species, captured using a specialized self-illuminating system. This innovative approach aims to enhance our understanding of grapevine leaf characteristics for improved classification and potential applications in the agricultural automation.
 
 ### Results
 The results were:
@@ -17,23 +21,11 @@ The results were:
 ![2](results_screenshots/2.PNG)
 ![3](results_screenshots/3.PNG)
 
-### Features Used
-| Feature Name   | Description                                                                                                       |
-|---------------|-------------------------------------------------------------------------------------------------------------------|
-| u             | Ultraviolet filter in the photometric system                                                                   |
-| g             | Green filter in the photometric system                                                                        |
-| r             | Red filter in the photometric system                                                                          |
-| i             | Near Infrared filter in the photometric system                                                                |
-| z             | Infrared filter in the photometric system                                                                     |
-| redshift      | Redshift value based on the increase in wavelength                                                            |
-| class         | Object class (galaxy, star, or quasar object)                                                                 |
-
 
 ### Skills demonstarted:
 
 (pandas, numpy, tensorflow/keras, scikit-learn & matplotlib)
 
-## [Based on Kaggle Dataset](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17)
 
 # Table of Contents (photometry.ipynb)
 
