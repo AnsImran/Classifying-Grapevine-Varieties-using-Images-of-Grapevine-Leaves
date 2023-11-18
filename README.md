@@ -1,6 +1,13 @@
+### Skills demonstarted:
+Data Processing, Data Augmentation, Convolutional Neural Networks, Transfer Learning - Feature Extraction, Transfer Learning - Fine Tuning, Classification Reports, Tensor Board, Functional API
+
+#### Libraries Used:
+(numpy, pandas, tensorflow/keras, scikit-learn & matplotlib etc...)
+
+
 # Classifying-Grapevine-Varieties-Using-images-of-Grapevine-Leaves 
 
-### I have tried to classify Grapevine varieties using images of leaves of different varieties of Grapevine
+### I attempted to classify grapevine varieties based on images of their leaves.
 
 ## [Based on Kaggle Dataset](https://www.kaggle.com/datasets/muratkokludataset/grapevine-leaves-image-dataset/data)
 
@@ -52,18 +59,16 @@ Deep learning-based classification to analyze images of grapevine leaves. We foc
 
 ### Results
 The results were:
-- For objects correctly_classified as Quasars, 90.3% of them had a probability greater than 0.9 of being a Quasar.
-- For objects correctly_classified as Galaxies, 86.7% of them had a probability greater than 0.9 of being a Galaxy.
-- For objects correctly_classified as Stars, 99.6% of them had a probability greater than 0.9 of being a Star.
-### Screenshots from the notebook [production.ipynb](production/production.ipynb):
+- For objects correctly_classified as Ak, 95% of them had a probability greater than 0.9 of being Ak.
+- For objects correctly_classified as Ala_Idris, 84.2% of them had a probability greater than 0.9 of being Ala_Idris.
+- For objects correctly_classified as Buzgulu, 77.7% of them had a probability greater than 0.9 of being Buzgulu.
+- For objects correctly_classified as Dimnit, 76.4% of them had a probability greater than 0.9 of being Dimnit.
+- For objects correctly_classified as Nazli, 95% of them had a probability greater than 0.9 of being Nazli.
+- 
+### Screenshots from the notebook [grapevine_leaves_classification.ipynb](grapevine_leaves_classification.ipynb):
 ![4](results_screenshots/1.PNG)
 ![1](results_screenshots/2.PNG)
 ![2](results_screenshots/3.PNG)
 ![3](results_screenshots/4.PNG)
-
-
-### Skills demonstarted:
-
-(pandas, numpy, tensorflow/keras, scikit-learn & matplotlib)
 
 
