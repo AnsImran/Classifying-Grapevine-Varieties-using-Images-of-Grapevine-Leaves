@@ -12,8 +12,6 @@ Data Processing, Data Augmentation, Convolutional Neural Networks, Transfer Lear
 ## [Based on Kaggle Dataset](https://www.kaggle.com/datasets/muratkokludataset/grapevine-leaves-image-dataset/data)
 
 ### Motivation:
-The dataset was obtained from Kaggle [click here](https://www.kaggle.com/datasets/muratkokludataset/grapevine-leaves-image-dataset/data).
-
 The dataset contained 500 pictures of grapevine leaves representing 5 different species. I utilized convolutional neural networks for multiclass classification on this dataset. The purpose of this project is to highlight and demonstrate my proficiency in Artificial Intelligence within the realm of computer vision. This work holds potential applications in agricultural automation.
 
 # Table of Contents [grapevine_leaves_classification.ipynb](grapevine_leaves_classification.ipynb)
