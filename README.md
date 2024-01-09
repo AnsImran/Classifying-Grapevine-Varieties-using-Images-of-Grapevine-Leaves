@@ -12,9 +12,9 @@ Data Processing, Data Augmentation, Convolutional Neural Networks, Transfer Lear
 ## [Based on Kaggle Dataset](https://www.kaggle.com/datasets/muratkokludataset/grapevine-leaves-image-dataset/data)
 
 ### Motivation:
-Grapevines produce grapes, which are enjoyed fresh or used in various processed products. Additionally, grapevine leaves are harvested annually as a by-product. The specific species of grapevine leaves play a crucial role in determining both their price and taste.
+The dataset was obtained from Kaggle [click here](https://www.kaggle.com/datasets/muratkokludataset/grapevine-leaves-image-dataset/data).
 
-I focused on 500 grapevine leaves from 5 different species, captured using a specialized self-illuminating system. This innovative approach aims to enhance our understanding of grapevine leaf characteristics for improved classification and potential applications in the agricultural automation.
+The dataset contained 500 pictures of grapevine leaves representing 5 different species. I utilized convolutional neural networks for multiclass classification on this dataset. The purpose of this project is to highlight and demonstrate my proficiency in Artificial Intelligence within the realm of computer vision. This work holds potential applications in agricultural automation.
 
 # Table of Contents [grapevine_leaves_classification.ipynb](grapevine_leaves_classification.ipynb)
 
