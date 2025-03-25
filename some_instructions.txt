@@ -1,0 +1,19 @@
+main ref: https://www.tensorflow.org/install/docker
+
+built using
+>>> docker pull tensorflow/tensorflow:2.10.0-gpu-jupyter
+see: https://hub.docker.com/r/tensorflow/tensorflow/tags
+
+run using
+>>> docker run --gpus all -it --rm -p 8888:8888 tensorflow/tensorflow:2.10.0-gpu-jupyter
+see: https://docs.docker.com/engine/containers/run/
+u'll get a jupyter server
+
+running with a mounted folder/volume
+>>>
+docker run --gpus all -it --rm -p 8888:8888 ^
+  -v "C:\Users\Ans\Desktop\code\04_Dev_Container\00_general_purpose_container_v2\02_Classifying-Grapevine-varieties-using-images-of-grapevine-leaves:/workspace/02_Classifying-Grapevine-varieties-using-images-of-grapevine-leaves" ^
+  tensorflow/tensorflow:2.10.0-gpu-jupyter
+>>>
+when you close the container everything closes. no more mounted...
+
