@@ -1,4 +1,3 @@
-my_log_dir
 content
 .ipynb_checkpoints
 __pycache__
@@ -8,7 +7,7 @@ NN_freezed.keras
 01_Data/Grapevine_Leaves_Image_Dataset/
 01_Data/initial/
 NN_freezed.keras
-stuff_to_ignore/
+stuff_to_ignore
 
 
 
