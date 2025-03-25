@@ -1,6 +1,6 @@
 .ipynb_checkpoints
 __pycache__
-01_Data/*
+./01_Data/*
 !01_Data/dataset_kaggle_link.txt
 stuff_to_ignore/
 
