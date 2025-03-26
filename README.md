@@ -23,21 +23,6 @@
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-(numpy, pandas, tensorflow/keras, scikit-learn & matplotlib etc...)
-
-
 # Classifying-Grapevine-Varieties-Using-images-of-Grapevine-Leaves 
 
 ### I attempted to classify grapevine varieties based on images of their leaves.
