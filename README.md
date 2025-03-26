@@ -22,39 +22,42 @@
 ![4](05_Results_Screenshots/cv_app_api_in_action.JPG)
 
 ---
+## Further details about this Project
 
-# Classifying-Grapevine-Varieties-Using-images-of-Grapevine-Leaves 
+### Classifying-Grapevine-Varieties-Using-images-of-Grapevine-Leaves 
 
-### I attempted to classify grapevine varieties based on images of their leaves.
-
-## [Based on Kaggle Dataset](https://www.kaggle.com/datasets/muratkokludataset/grapevine-leaves-image-dataset/data)
+#### The project tries to classify grapevine varieties based on the images of their leaves.
 
 ### Motivation:
 The dataset contained 500 pictures of grapevine leaves representing 5 different species. I utilized convolutional neural networks for multiclass classification on this dataset. The purpose of this project is to highlight and demonstrate my proficiency in Artificial Intelligence within the realm of computer vision. This work holds potential applications in agricultural automation.
 
-# Table of Contents [grapevine_leaves_classification.ipynb](grapevine_leaves_classification.ipynb)
+### [Based on Kaggle Dataset](https://www.kaggle.com/datasets/muratkokludataset/grapevine-leaves-image-dataset/data)
 
-## 1. Importing data
+
+
+## Table of Contents [grapevine_leaves_classification.ipynb](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/blob/master/02_Data_Processing__and__Model_Training/grapevine_leaves_classification.ipynb)
+
+### 1. Importing data
    - ##### Importing data from kaggle
    - ##### Unzipping the data
 
-## 2. Data Cleaning
+### 2. Data Cleaning
    - ##### Addressing Class Imbalance
 
-## 3. Data Transfer
+### 3. Data Transfer
    - ##### Creating relevant directories & transferring the data (train, test and validation splits)
 
-## 4. Data Augmentation & Processing
+### 4. Data Augmentation & Processing
    - ##### Setting up generators to Augment & Process the data
 
-## 5. Data Visualisation
+### 5. Data Visualisation
    - ##### Visualizing typical images in the data before & after Augmentation
 
-## 6. Setting up a baseline performance
+### 6. Setting up a baseline performance
    - #####  Using a small convnet, setting up a baseline performance
 
-## 7. Transfer Learning
- - ### Feature Extracton With Data Augmentation
+### 7. Transfer Learning
+ - #### Feature Extracton With Data Augmentation
    - ##### Freezing Convolutional Base
    - ##### Adding the Classifier Base
    - ##### Setting Up Callbacks
@@ -62,7 +65,7 @@ The dataset contained 500 pictures of grapevine leaves representing 5 different 
    - ##### Selecting the best set of weights by comparing the performance on Training, Validation & Test Datasets
    - ##### Generating Classification Report and Confusion Matrix on Test Dataset
 
- - ### Fine Tuning
+ - #### Fine Tuning
    - ##### Unfreezing last two layers of Convolutional Base
    - ##### Adding the Classifier Base
    - ##### Setting Up Callbacks
@@ -70,7 +73,7 @@ The dataset contained 500 pictures of grapevine leaves representing 5 different 
    - ##### Selecting the best set of weights by comparing the performance on Training, Validation & Test Datasets
    - ##### Generating Classification Report and Confusion Matrix on Test Dataset
 
-## 8. Conclusions
+### 8. Conclusions & Future Improvements
 
 
 
