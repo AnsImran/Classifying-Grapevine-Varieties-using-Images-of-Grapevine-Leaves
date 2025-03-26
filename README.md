@@ -86,9 +86,10 @@ The results were:
 - For objects correctly_classified as Nazli, 95% of them had a probability greater than 0.9 of being Nazli.
 - 
 ### Screenshots from the notebook [grapevine_leaves_classification.ipynb](grapevine_leaves_classification.ipynb):
-![4](05_Results_Screenshots/1.PNG)
-![1](05_Results_Screenshots/2.PNG)
-![2](05_Results_Screenshots/3.PNG)
-![3](05_Results_Screenshots/4.PNG)
+<img src="05_Results_Screenshots/1.PNG" alt="4" width="600"/>
+<img src="05_Results_Screenshots/2.PNG" alt="1" width="600"/>
+<img src="05_Results_Screenshots/3.PNG" alt="2" width="600"/>
+<img src="05_Results_Screenshots/4.PNG" alt="3" width="600"/>
+
 
 
