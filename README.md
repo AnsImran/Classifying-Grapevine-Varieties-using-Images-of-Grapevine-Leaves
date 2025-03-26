@@ -84,7 +84,7 @@ The results were:
 - For objects correctly_classified as Buzgulu, 77.7% of them had a probability greater than 0.9 of being Buzgulu.
 - For objects correctly_classified as Dimnit, 76.4% of them had a probability greater than 0.9 of being Dimnit.
 - For objects correctly_classified as Nazli, 95% of them had a probability greater than 0.9 of being Nazli.
-- 
+
 ### Screenshots from the notebook [grapevine_leaves_classification.ipynb](grapevine_leaves_classification.ipynb):
 <img src="05_Results_Screenshots/1.PNG" alt="4" width="600"/>
 <img src="05_Results_Screenshots/2.PNG" alt="1" width="600"/>
