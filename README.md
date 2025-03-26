@@ -1,3 +1,36 @@
+## End-to-End Computer Vision Project
+
+#### Skills demonstarted:
+(pandas, numpy, tensorflow, scikit-learn, matplotlib, fastapi, docker, amazon_aws_lambda, postman)
+
+### [Data Cleaning, Augmentation and Processing](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/blob/master/02_Data_Processing__and__Model_Training/grapevine_leaves_classification.ipynb)
+
+### [Visualizing Data before and after Augmentation](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/blob/master/02_Data_Processing__and__Model_Training/grapevine_leaves_classification.ipynb)
+
+### [Setting Up Baseline Performance](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/blob/master/02_Data_Processing__and__Model_Training/grapevine_leaves_classification.ipynb)
+
+### [Transfer Learning - Feature Extraction](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/blob/master/02_Data_Processing__and__Model_Training/grapevine_leaves_classification.ipynb)
+
+### [Transfer Learning - Fine Tuning](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/blob/master/02_Data_Processing__and__Model_Training/grapevine_leaves_classification.ipynb)
+
+### [Deploying the Model Using Fast-Api](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/tree/master/04_Deployment)
+
+### [Future Improvements?](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/blob/master/02_Data_Processing__and__Model_Training/grapevine_leaves_classification.ipynb)
+
+---
+## Deployment Snapshot on Amazon AWS Lambda
+![4](05__Results/api-in-action-p4.JPG)
+
+---
+
+
+
+
+
+
+
+
+
 ### Skills demonstarted:
 Data Processing, Data Augmentation, Convolutional Neural Networks, Transfer Learning - Feature Extraction, Transfer Learning - Fine Tuning, Classification Reports, Tensor Board, Functional API
 
