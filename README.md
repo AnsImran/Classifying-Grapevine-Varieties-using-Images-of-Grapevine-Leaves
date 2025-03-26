@@ -1,7 +1,7 @@
 ## End-to-End Computer Vision Project
 
 #### Skills demonstarted:
-(pandas, numpy, tensorflow, scikit-learn, matplotlib, fastapi, docker, dev-container, convolutional-neural-networks, call-backs)
+(pandas, numpy, tensorflow, scikit-learn, matplotlib, fastapi, docker, dev-container)
 
 ### [Data Cleaning, Augmentation and Processing](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/blob/master/02_Data_Processing__and__Model_Training/grapevine_leaves_classification.ipynb)
 
