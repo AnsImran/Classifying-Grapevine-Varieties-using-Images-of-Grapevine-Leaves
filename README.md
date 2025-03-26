@@ -18,8 +18,8 @@
 ### [Future Improvements?](https://github.com/AnsImran/Classifying-Grapevine-Varieties-using-Images-of-Grapevine-Leaves/blob/master/02_Data_Processing__and__Model_Training/grapevine_leaves_classification.ipynb)
 
 ---
-## Deployment Snapshot on Amazon AWS Lambda
-![4](05__Results/api-in-action-p4.JPG)
+## Deployment Snapshot (fast-api)
+![4](05_Results_Screenshots/cv_app_api_in_action.JPG)
 
 ---
 
